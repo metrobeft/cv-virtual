@@ -1,0 +1,142 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    min-width: 280px;
+	min-height:568px;
+	font-size: clamp(0.5em, 0.5em + 0.5vw, 1.5em);
+}
+
+a{ text-decoration: none;}
+
+.maxtamanho{
+	height:auto;
+	max-height:100;
+	
+}
+
+.abertura{
+background-color: rgb(224, 224, 224);
+min-height: 568px;
+}
+.ttt{
+	list-style: none;
+	text-align: justify;
+}
+.texto{
+	list-style: none;
+    overflow: auto;
+    text-overflow: ellipsis;
+	text-align: justify-all;
+}
+.icones{
+	position:relative;
+	width:clamp(50%, 50% + 1vw, 100%);
+	left:clamp(20%, 20% + 1vw, 0%);
+}
+li.lili{
+	list-style: none;
+	overflow: auto;
+	text-align:center;
+
+}
+
+.menubotoes{
+	background-color: rgb(224, 224, 224);
+	
+}
+
+.conteineBorder{
+	border: solid 1px black;
+}
+
+.botaocuston{
+	position:relative;
+	border-bottom:solid 2px black;
+	background-color:rgb(224, 224, 224);
+	top:0px;
+	height:100%;
+	float: left;
+	width:20%;
+	text-align:center;
+	font-size: 100%;
+	overflow: auto;
+    text-overflow: ellipsis;
+}
+.botaocuston:hover{
+	background-color:gray;
+}
+.botaocustonativado{
+	border-bottom:solid 0px black;
+	border-left:solid 2px black;
+	border-right:solid 2px black;
+	border-top:solid 2px black;
+}
+.botaocustonativado:hover{
+	background-color:rgb(224, 224, 224);
+}
+
+.mostrar{
+	visibility: visible;
+}
+
+.naomostrar{
+	visibility: hidden;
+}
+
+.boxconteudo{
+	border:solid 0px black;
+	height:90%;
+	list-style: none;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.progress2{
+	width: 25%;
+}
+.progress3{
+	width: 50%;
+	aria-valuenow:25;
+	aria-valuemin:0;
+	aria-valuemax:100;
+}
+.progress4{
+	width: 75%;
+	aria-valuenow:25;
+	aria-valuemin:0;
+	aria-valuemax:100;
+}
+.progress5{
+	width: 100%;
+	aria-valuenow:25;
+	aria-valuemin:0;
+	aria-valuemax:100;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(224, 224, 224); 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 25px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
